@@ -1,6 +1,9 @@
 # Configuração do Nginx no Linux Mint
 
 Este é um guia passo a passo para configurar o servidor Nginx no Linux Mint OS.
+`
+Observação, para facilitar o uso do terminal do linux Mint OS, Copie o codigo e cole no terminal usando as teclas de atlho Ctrl + Insert do teclado.
+`
 
 ## Passo 1: Instalação do Nginx
 
@@ -61,5 +64,15 @@ sudo systemctl disable nginx
 Habilitar Serviço
 ```
 sudo systemctl enable nginx      
+```
+### Para acessar a pasta onde está rodando o serviço digite via terminal
+```
+cd /var/www
+```
+```
+ls
+```
+```
+cd html
 ```
 
