@@ -6,19 +6,19 @@ Este é um guia passo a passo para configurar o servidor Nginx no Linux Mint OS.
 
 Certifique-se de ter o Nginx instalado no seu sistema Linux Mint. Se ainda não estiver instalado, execute o seguinte comando no terminal:
 
-'''
+'
 sudo apt update
 sudo apt install nginx
-'''
+'
 ## Passo 2: Configuração das regras do firewall
 
 Para permitir o tráfego HTTP (porta 80) e HTTPS (porta 443) para o Nginx, abra o terminal e execute os seguintes comandos:
 '''
 sudo ufw allow 'Nginx HTTP'
 sudo ufw allow 'Nginx HTTPS'
-'''
+/*
 Certifique-se de reiniciar o serviço do Nginx para aplicar as alterações:
-'''
+*/
 sudo service nginx restart
 '''
 ## Passo 3: Verificando o endereço IP do servidor
