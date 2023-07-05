@@ -37,7 +37,7 @@ Anote o endereço IP exibido na interface de rede relevante.
 
 Abra um navegador e digite o endereço IP do seu servidor Linux Mint na barra de endereços. Se tudo estiver configurado corretamente, você deve ver a página padrão do Nginx.
 
-### Comandos Manutenção
+### Comandos Manutenção do serviço
 Iniciar Serviço
 ```
 sudo systemctl start nginx
