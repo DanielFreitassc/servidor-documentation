@@ -167,13 +167,14 @@ para sair e salvar no VIM  depois das alterações digite >>>  ESC  <<< e digite
 sudo nginx -t
 ```
 # Reinciar para garantir as modificações.
-````
+```
 sudo systemctl restart nginx
 ```
 Comando para ver log em tempo real.
 ```
 sudo tail -f /var/log/nginx/access.log
 ```
+
 # Criando o acesso personalizado.
 # 1. Editar o arquivo de configuração do NGINX:
 
