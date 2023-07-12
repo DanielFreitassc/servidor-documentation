@@ -104,11 +104,11 @@ Diretório padrão das Hospedagem de Site do NGINX Server
 /var/log/nginx/               
 ````
 # Habilitar o PHP
+Cole no terminal para ir para config de default.
 ````
 sudo vim /etc/nginx/sites-available/default
 ````
-
-
+Dentro de default subistitua esse codigo preste atenção ao começo.
 ```
 root /var/www/html;
 
@@ -170,7 +170,7 @@ sudo nginx -t
 ````
 sudo systemctl restart nginx
 ````
-
+# Criando o acesso personalizado.
 # 1. Editar o arquivo de configuração do NGINX:
 
 ```
