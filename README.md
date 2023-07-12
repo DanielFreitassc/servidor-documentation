@@ -70,6 +70,7 @@ Inicia o PHP
 ```
 sudo systemctl start php8.1-fpm
 ```
+# Aqui vamos instalar o editor VIM.
 ```
 sudo apt install git vim perl python2 python3 unzip ghostscript zlib1g zlib1g-dev apt-transport-https
 ```
