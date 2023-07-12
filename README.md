@@ -237,7 +237,7 @@ ip addr show
 9. Salvar e fechar o arquivo `/etc/hosts`.
 para sair e salvar no VIM  depois das alterações digite >>>  ESC  <<< e digite   ":x"  e aperte >>> ENTER <<< no teclado. OBS: Sem as Aspas duplas.
 
-´´´
+
 http://simuladosatc.com/
-´´´
+
 > Daniel Freitas
