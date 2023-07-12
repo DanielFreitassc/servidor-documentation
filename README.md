@@ -103,7 +103,7 @@ Diretório padrão das Hospedagem de Site do NGINX Server
 ```
 /var/log/nginx/               
 ````
-#Habilitar o PHP
+# Habilitar o PHP
 ````
 sudo vim /etc/nginx/sites-available/default
 ````
