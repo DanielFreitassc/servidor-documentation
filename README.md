@@ -70,10 +70,6 @@ Inicia o PHP
 ```
 sudo systemctl start php8.1-fpm
 ```
-# Aqui vamos instalar o editor VIM.
-```
-sudo apt install git vim perl python2 python3 unzip ghostscript zlib1g zlib1g-dev apt-transport-https
-```
 # Caminhos para configurar nginx
 Diretório de configuração do NGINX Server
 ```
@@ -106,7 +102,7 @@ Diretório padrão das Hospedagem de Site do NGINX Server
 # Habilitar o PHP
 Cole no terminal para ir para config de default.
 ````
-sudo vim /etc/nginx/sites-available/default
+sudo nano /etc/nginx/sites-available/default
 ````
 Dentro de default subistitua esse codigo preste atenção ao começo.
 ```
