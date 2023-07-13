@@ -254,6 +254,8 @@ Depois
 ```
 service nginx reload 
 ```
-http://simuladosatc.com/
-
+Alem disso para permitir o usuario enviar foto use o comando 
+```
+sudo chmod -R 755 /var/www/simuladosatc.com/uploads
+```
 > Daniel Freitas
