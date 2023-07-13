@@ -41,22 +41,22 @@ sudo systemctl start php8.1-fpm
 ```
 ___
 # Comando NGINX
-Mostra o status nginx
+## Mostra o status nginx
 ```
 sudo systemctl status nginx
 ```
 ___
-Reinicia o nginx
+## Reinicia o nginx
 ```
 sudo systemctl restart nginx
 ```
 ___
-Para o nginx
+## Para o nginx
 ```
 sudo systemctl stop nginx
 ```
 ___
-Inicia o nginx
+## Inicia o nginx
 ```
 sudo systemctl start nginx
 ```
@@ -67,17 +67,17 @@ Mostra o status no PHP.
 sudo systemctl status php8.1-fpm
 ```
 ___
-Reinicia O PHP
+## Reinicia O PHP
 ```
 sudo systemctl restart php8.1-fpm
 ```
 ___
-Para o PHP
+## Para o PHP
 ```
 sudo systemctl stop php8.1-fpm
 ```
 ___
-Inicia o PHP
+## Inicia o PHP
 ```
 sudo systemctl start php8.1-fpm
 ```
@@ -88,32 +88,32 @@ Diretório de configuração do NGINX Server
 /etc/nginx/                  
 ```
 ___
-Arquivo de configuração do NGINX Server
+## configuração do NGINX Server
 ```
 /etc/nginx/nginx.conf       
 ```
 ___
-Diretório padrão dos Sites Acessíveis do NGINX Server
+## Diretório padrão dos Sites Acessíveis do NGINX Server
 ```
 /etc/nginx/sites-available/  
 ```
 ___
-Diretório de configuração do PHP 8.1
+## Diretório de configuração do PHP 8.1
 ```
 /etc/php/                   
 ```
 ___
-Arquivo de configuração do PHP-FPM 8.1 do NGINX Server
+## Arquivo de configuração do PHP-FPM 8.1 do NGINX Server
 ```
 /etc/php/8.1/fpm/php.ini     
 ```
 ___
-Diretório padrão das Hospedagem de Site do NGINX Server
+## Diretório padrão das Hospedagem de Site do NGINX Server
 ```
 /var/www/html/              
 ```
 ___
- Diretório padrão dos Logs do NGINX Server
+## Diretório padrão dos Logs do NGINX Server
 ```
 /var/log/nginx/               
 ````
@@ -124,7 +124,7 @@ Cole no terminal para ir para config de default.
 sudo nano /etc/nginx/sites-available/default
 ````
 ___
-Dentro de default subistitua esse codigo preste atenção ao começo.
+## Dentro de default subistitua esse codigo preste atenção ao começo.
 ```
 root /var/www/html;
 
@@ -188,7 +188,7 @@ ___
 sudo systemctl restart nginx
 ```
 ___
-Comando para ver log em tempo real.
+## Comando para ver log em tempo real.
 ```
 sudo tail -f /var/log/nginx/access.log
 ```
@@ -202,7 +202,7 @@ ___
 sudo nano /etc/nginx/sites-available/simuladosatc.com
 ```
 ___
-2. Colar o seguinte conteúdo no arquivo de configuração do NGINX:
+## 2. Colar o seguinte conteúdo no arquivo de configuração do NGINX:
 ```
 server {
     listen 80;
@@ -229,61 +229,61 @@ server {
 ```
 ___
 
-3. Salvar e fechar o arquivo de configuração do NGINX.
+## 3. Salvar e fechar o arquivo de configuração do NGINX.
 Para fazer isso aperte CTR + X e digte "S" e aperte >>> ENTER<<<
 ___
-4. Criar um link simbólico para o arquivo de configuração no diretório `sites-enabled`:
+## 4. Criar um link simbólico para o arquivo de configuração no diretório `sites-enabled`:
 ```
 sudo ln -s /etc/nginx/sites-available/simuladosatc.com /etc/nginx/sites-enabled/
 ```
 ___
 
-5. Verificar se não há erros de sintaxe no arquivo de configuração do NGINX:
+## 5. Verificar se não há erros de sintaxe no arquivo de configuração do NGINX:
 ```
 sudo nginx -t
 ```
 ___
-6. Reiniciar o serviço do NGINX:
+## 6. Reiniciar o serviço do NGINX:
 ```
 sudo systemctl restart nginx
 ```
 ___
-7. Editar o arquivo `/etc/hosts`:
+## 7. Editar o arquivo `/etc/hosts`:
 ```
 sudo nano /etc/hosts
 ```
 ___
-8. Adicionar uma linha ao arquivo `/etc/hosts` com o endereço IP e o nome de domínio:
+## 8. Adicionar uma linha ao arquivo `/etc/hosts` com o endereço IP e o nome de domínio:
 ```
 <IP_ADDRESS> simuladosatc.com
 ```
 ___
-(Substitua `<IP_ADDRESS>` pelo endereço IP do seu servidor)
-Para saber seu ip digite 
+## (Substitua `<IP_ADDRESS>` pelo endereço IP do seu servidor)
+## Para saber seu ip digite 
 ```
 ip addr show
 ```
 ___
-9. Salvar e fechar o arquivo `/etc/hosts`.
+## 9. Salvar e fechar o arquivo `/etc/hosts`.
 
 # Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
 ___
-10. Caso de erro ao enviar arquivo faça os seguintes comandos.
+## 10. Caso de erro ao enviar arquivo faça os seguintes comandos.
 ```
 sudo nano /etc/nginx/nginx.conf
 ```
 ___
-Dentro de http{ 
+## Dentro de http{ 
 ```
 client_max_body_size 100;
 ```
 ___
-Depois 
+## Depois 
 ```
 service nginx reload 
 ```
 ___
-Alem disso para permitir o usuario enviar foto use o comando 
+## Alem disso para permitir o usuario enviar foto use o comando 
 ```
 sudo chmod -R 755 /var/www/simuladosatc.com/uploads
 ```
