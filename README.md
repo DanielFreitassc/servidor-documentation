@@ -284,7 +284,7 @@ service nginx reload
 ```
 ___
 ## Alem disso para permitir o usuario enviar foto use o comando 
-### ATENÇÃO,Não é recomenado a permissão 777 por questões de segurança mas para este caso foi utilizado.
+### !!!ATENÇÃO!!!, não é recomenado a permissão 777 por questões de segurança mas para este caso foi utilizado.
 ```
 sudo chmod -R 777 /var/www/simuladosatc.com/uploads
 ```
