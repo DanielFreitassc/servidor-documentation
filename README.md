@@ -2,7 +2,7 @@
 
 - [Introdução](#Configuração-do-Nginx-no-Linux-Mint)
 - [Instalação do Nginx](#Instalar-o-Nginx-no-mint-211)
-- [instalação do PHP](#Instar-o-PHP-8.1.)
+- [instalação do PHP](#Instar-o-PHP-81)
 - [Habilitar o Nginx](#habilitar-o-nginx)
 - [Configuração do Servidor](#vamos-configurar-o-servidor)
 - [Configuração do arquivo /etc/hosts](#editar-o-arquivo-etchosts)
