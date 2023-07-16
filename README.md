@@ -148,7 +148,7 @@ ___
 sudo chown -R www-data:www-data /var/www/simuladosatc.com/uploads
 sudo chown -R www-data:www-data /var/www/simuladosatc.com
 sudo chmod -R 755 /var/www/simuladosatc.com/uploads
-sudo chmod -R 755 /var/www/simuladosatc.com
+sudo chmod -R 755 /var/www/simuladosatc.com/
 ```
 # Reincie o nginx para garantiar que tudo funcione.
 ___
