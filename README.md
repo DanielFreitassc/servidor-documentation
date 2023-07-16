@@ -1,6 +1,6 @@
 # Configuração do Nginx no Linux Mint
 
-Este é um guia passo a passo para configurar o servidor Nginx no Linux Mint OS.
+## Este é um guia passo a passo para configurar o servidor Nginx no Linux Mint OS.
 
 `
 Observação, para facilitar o uso do terminal do linux Mint OS, Copie o codigo e cole no terminal usando as teclas de atalho Ctrl + Insert do teclado.
@@ -49,7 +49,7 @@ sudo nano /etc/nginx/sites-available/default
 ___
 # Depois disso podemos iniciar.
 ___
-Use o comando abaixo para ir até a configuração do seu site.
+## Use o comando abaixo para ir até a configuração do seu site.
 ````
 sudo nano /etc/nginx/sites-available/meusite.com
 ````
@@ -96,7 +96,7 @@ location /uploads {
 
 ```
 ___
-# Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
+### Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
 ___
 
 # Testar se as configurações foram feitas.
@@ -109,20 +109,10 @@ ___
 sudo ln -s /etc/nginx/sites-available/meusite.com /etc/nginx/sites-enabled/
 ```
 ___
-# Reinciar para garantir as modificações.
-```
-sudo systemctl restart nginx
-```
-___
 
-## 5. Verificar se não há erros de sintaxe no arquivo de configuração do NGINX:
+## Verificar se não há erros de sintaxe no arquivo de configuração do NGINX:
 ```
 sudo nginx -t
-```
-___
-## 6. Reiniciar o serviço do NGINX:
-```
-sudo systemctl restart nginx
 ```
 ___
 ## Anote seu endereço IP iremos precisar.
@@ -130,12 +120,12 @@ ___
 ip addr show
 ```
 ___
-## 7. Editar o arquivo `/etc/hosts`:
+## Editar o arquivo `/etc/hosts`:
 ```
 sudo nano /etc/hosts
 ```
 ___
-## 8. Adicionar uma linha ao arquivo `/etc/hosts` com o endereço IP e o nome do site, obs:só funcionara procurar o nome na maquina que foi configurado assim, as demais sera necessario ou repetir essa configuração ou procurar por endereço de ip:
+## Adicionar uma linha ao arquivo `/etc/hosts` com o endereço IP e o nome do site, obs:só funcionara procurar o nome na maquina que foi configurado assim, as demais sera necessario ou repetir essa configuração ou procurar por endereço de ip:
 ```
 <IP_ADDRESS> meusite.com
 ```
@@ -143,7 +133,7 @@ ___
 ## (Substitua `<IP_ADDRESS>` pelo endereço IP do seu servidor)
 
 ___
-## 9. Salvar e fechar o arquivo `/etc/hosts`.
+## Salvar e fechar o arquivo `/etc/hosts`.
 
 ### Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
 ___
@@ -156,4 +146,10 @@ sudo chown -R www-data:www-data /var/www/simuladosatc.com
 sudo chmod -R 755 /var/www/simuladosatc.com/uploads
 sudo chmod -R 755 /var/www/simuladosatc.com
 ```
+# Reincie o nginx para garantiar que tudo funciona.
+___
+```
+sudo systemctl restart nginx
+```
+
 > Daniel Freitas
