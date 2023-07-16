@@ -26,17 +26,9 @@ ___
 # Habilitar o NGINX no terminal.
 ```
 sudo systemctl daemon-reload
-```
-```
 sudo systemctl enable nginx
-```
-```
 sudo systemctl enable php8.1-fpm
-```
-```
 sudo systemctl start nginx
-```
-```
 sudo systemctl start php8.1-fpm
 ```
 ___
