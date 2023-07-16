@@ -1,3 +1,14 @@
+# Sumário
+
+- [Introdução](#Este-é-um-guia-passo-a-passo-para-configurar-o-servidor-Nginx-no-Linux-Mint-OS.)
+- [Instalação do Nginx](#instalação-do-nginx)
+- [Configuração do Servidor](#configuração-do-servidor)
+- [Testar as Configurações](#testar-as-configurações)
+- [Configuração do arquivo /etc/hosts](#configuração-do-arquivo-etchosts)
+- [Colocar o Site no Diretório](#colocar-o-site-no-diretório)
+- [Permissões de Arquivos e Reinicialização do Nginx](#permissões-de-arquivos-e-reinicialização-do-nginx)
+- [Conclusão](#conclusão)
+___
 # Configuração do Nginx no Linux Mint
 
 ## Este é um guia passo a passo para configurar o servidor Nginx no Linux Mint OS.
