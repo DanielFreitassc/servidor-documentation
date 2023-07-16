@@ -1,7 +1,7 @@
 # Sumário
 
 - [Introdução](#Configuração-do-Nginx-no-Linux-Mint)
-- [Instalação do Nginx](#instalação-do-nginx-no-mint-21.1)
+- [Instalação do Nginx](#instalação-do-nginx-no-mint-21.1.)
 - [instalação do PHP](#Instar-o-PHP-8.1.)
 - [Habilitar o Nginx](#habilitar-o-nginx)
 - [Configuração do Servidor](#vamos-configurar-o-servidor)
