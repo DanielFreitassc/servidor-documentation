@@ -131,21 +131,23 @@ ___
 sudo systemctl restart nginx
 ```
 ___
+## Anote seu endereço IP iremos precisar.
+```
+ip addr show
+```
+___
 ## 7. Editar o arquivo `/etc/hosts`:
 ```
 sudo nano /etc/hosts
 ```
 ___
-## 8. Adicionar uma linha ao arquivo `/etc/hosts` com o endereço IP e o nome de domínio:
+## 8. Adicionar uma linha ao arquivo `/etc/hosts` com o endereço IP e o nome do site, obs:só funcionara procurar o nome na maquina que foi configurado assim, as demais sera necessario ou repetir essa configuração ou procurar por endereço de ip:
 ```
-<IP_ADDRESS> simuladosatc.com
+<IP_ADDRESS> meusite.com
 ```
 ___
 ## (Substitua `<IP_ADDRESS>` pelo endereço IP do seu servidor)
-## Para saber seu ip digite 
-```
-ip addr show
-```
+
 ___
 ## 9. Salvar e fechar o arquivo `/etc/hosts`.
 
