@@ -46,7 +46,7 @@ ___
 sudo nano /etc/nginx/sites-available/meusite.com
 ````
 ___
-Cole isso dentro da configuração do servidor.
+## Cole isso dentro da configuração do servidor.
 ```
 server {
     listen 80;
