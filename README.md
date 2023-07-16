@@ -1,13 +1,14 @@
 # Sumário
 
 - [Introdução](#Configuração-do-Nginx-no-Linux-Mint)
-- [Instalação do Nginx](#instalação-do-nginx)
-- [Configuração do Servidor](#configuração-do-servidor)
-- [Testar as Configurações](#testar-as-configurações)
-- [Configuração do arquivo /etc/hosts](#configuração-do-arquivo-etchosts)
-- [Colocar o Site no Diretório](#colocar-o-site-no-diretório)
-- [Permissões de Arquivos e Reinicialização do Nginx](#permissões-de-arquivos-e-reinicialização-do-nginx)
-- [Conclusão](#conclusão)
+- [Instalação do Nginx](#instalação-do-nginx-no-mint-211)
+- [instalação do PHP](#Instar-o-PHP-8.1.)
+- [Habilitar o Nginx](#habilitar-o-nginx)
+- [Configuração do Servidor](#vamos-configurar-o-servidor)
+- [Configuração do arquivo /etc/hosts](#editar-o-arquivo-etchosts)
+- [Colocar o Site no Diretório](#por-fim-coloque-seu-site-com-o-nome-correto-dentro-da-pasta-varwwwmeusitecomaqui-indexhtml-ou-indexphp-do-seu-site)
+- [Permissões de Arquivos e Reinicialização do Nginx](#alem-disso-para-permitir-o-usuário-enviar-arquivos)
+- [Conclusão](#reinicie-o-nginx-para-garantir-que-tudo-funcione)
 ___
 # Configuração do Nginx no Linux Mint
 
