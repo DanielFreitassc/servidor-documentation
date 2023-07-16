@@ -42,7 +42,7 @@ sudo systemctl start php8.1-fpm
 ___
 
 # Vamos configurar o servidor
-primeiramente vamos desativar a configuração padrão do servidor botando um # no começo de todo o codigo repita isso em todos os locais onde tem o default.
+## primeiramente vamos desativar a configuração padrão do servidor para seu site ser achado. Insira um # no começo de todas as linhas codigo.
 ````
 sudo nano /etc/nginx/sites-available/default
 ````
@@ -104,7 +104,7 @@ ___
 sudo nginx -t
 ```
 ___
-# Agora vamos habilitar o site. 
+# Criar um link simbólico para o arquivo de configuração no diretório `sites-enabled`: 
 ```
 sudo ln -s /etc/nginx/sites-available/meusite.com /etc/nginx/sites-enabled/
 ```
@@ -112,12 +112,6 @@ ___
 # Reinciar para garantir as modificações.
 ```
 sudo systemctl restart nginx
-```
-___
-
-## 4. Criar um link simbólico para o arquivo de configuração no diretório `sites-enabled`:
-```
-sudo ln -s /etc/nginx/sites-available/simuladosatc.com /etc/nginx/sites-enabled/
 ```
 ___
 
@@ -151,18 +145,11 @@ ___
 ___
 ## 9. Salvar e fechar o arquivo `/etc/hosts`.
 
-## Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
+### Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
 ___
 # Por fim coloque seu site com o nome correto dentro da pasta /var/www/meusite.com/aqui: index.html ou index.php do seu site
 ## Alem disso para permitir o usuario enviar foto use o comando 
-### !!!ATENÇÃO!!!, não é recomenado a permissão 777 por questões de segurança mas para este caso foi utilizado.
-```
-sudo chmod -R 777 /var/www/simuladosatc.com/uploads
-```
-```
-sudo chmod -R 777 /var/www/simuladosatc.com/
-```
-# TESTE 
+### Subistitua simuladosatc.com pelo nome do diretorio faça isso a cada diretorio novo.
 ```
 sudo chown -R www-data:www-data /var/www/simuladosatc.com/uploads
 sudo chown -R www-data:www-data /var/www/simuladosatc.com
