@@ -23,7 +23,7 @@ php8.1-readline php8.1-bcmath php8.1-curl php8.1-intl php8.1-mbstring php8.1-xml
 php8.1-soap php-imagick php-json libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap
 ```
 ___
-# Habilitar o NGINX no terminal.
+# Habilitar o NGINX.
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable nginx
