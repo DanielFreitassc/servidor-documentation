@@ -129,8 +129,8 @@ ___
 
 ### Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
 ___
-# Por fim coloque seu site com o nome correto dentro da pasta /var/www/meusite.com/aqui: index.html ou index.php do seu site
-## Alem disso para permitir o usuario enviar foto use o comando 
+# Por fim coloque seu site com o nome correto dentro da pasta `/var/www/meusite.com/aqui: index.html ou index.php` do seu site
+## Alem disso para permitir o usuario enviar arquivos : 
 ### Subistitua simuladosatc.com pelo nome do diretorio faça isso a cada diretorio novo.
 ```
 sudo chown -R www-data:www-data /var/www/simuladosatc.com/uploads
@@ -138,7 +138,7 @@ sudo chown -R www-data:www-data /var/www/simuladosatc.com
 sudo chmod -R 755 /var/www/simuladosatc.com/uploads
 sudo chmod -R 755 /var/www/simuladosatc.com
 ```
-# Reincie o nginx para garantiar que tudo funciona.
+# Reincie o nginx para garantiar que tudo funcione.
 ___
 ```
 sudo systemctl restart nginx
