@@ -220,12 +220,28 @@ server {
     location ~ \.php$ {
         include snippets/fastcgi-php.conf;
         fastcgi_pass unix:/run/php/php8.1-fpm.sock;
-    }
+        # Configurações para uploads de arquivos
+        client_max_body_size 100M;
+        fastcgi_buffers 8 16k;
+        fastcgi_buffer_size 32k;
+        fastcgi_param PHP_VALUE "upload_max_filesize=100M \n post_max_size=100M";
+
+}
+
+
+
+location /uploads {
+    alias /var/www/simuladosatc.com/uploads/;
+    autoindex on;
+    allow all;
+
+}
 
     location ~ /\.ht {
         deny all;
     }
 }
+
 ```
 ___
 
