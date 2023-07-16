@@ -42,7 +42,7 @@ sudo systemctl start php8.1-fpm
 ___
 
 # Vamos configurar o servidor
-## primeiramente vamos desativar a configuração padrão do servidor para seu site ser achado. Insira um # no começo de todas as linhas codigo.
+## primeiramente vamos desativar a configuração padrão do servidor para seu site ser achado. Insira um `#` no começo de todas as linhas codigo.
 ````
 sudo nano /etc/nginx/sites-available/default
 ````
