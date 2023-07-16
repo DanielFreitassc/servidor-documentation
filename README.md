@@ -151,9 +151,9 @@ ___
 ___
 ## 9. Salvar e fechar o arquivo `/etc/hosts`.
 
-# Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
+## Para sair e salvar: CTR + x  >>> Digite "S" >>> ENTER
 ___
-
+# Por fim coloque seu site com o nome correto dentro da pasta /var/www/meusite.com/aqui: index.html ou index.php do seu site
 ## Alem disso para permitir o usuario enviar foto use o comando 
 ### !!!ATENÇÃO!!!, não é recomenado a permissão 777 por questões de segurança mas para este caso foi utilizado.
 ```
