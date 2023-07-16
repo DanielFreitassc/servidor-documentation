@@ -8,7 +8,7 @@
 - [Configuração do arquivo /etc/hosts](#editar-o-arquivo-etchosts)
 - [Colocar o Site no Diretório](#por-fim-coloque-seu-site-com-o-nome-correto-dentro-da-pasta-varwwwmeusitecomaqui-indexhtml-ou-indexphp-do-seu-site)
 - [Permissões de Arquivos e Reinicialização do Nginx](#Alem-disso-para-permitir-o-usuario-enviar-arquivos)
-- [Conclusão](#reinicie-o-nginx-para-garantir-que-tudo-funcione)
+- [Conclusão](#Reincie-o-nginx-para-garantiar-que-tudo-funcione)
 ___
 # Configuração do Nginx no Linux Mint
 
