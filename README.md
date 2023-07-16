@@ -1,6 +1,6 @@
 # Sumário
 
-- [Introdução](#Este-é-um-guia-passo-a-passo-para-configurar-o-servidor-Nginx-no-Linux-Mint-OS.)
+- [Introdução](#Configuração-do-Nginx-no-Linux-Mint)
 - [Instalação do Nginx](#instalação-do-nginx)
 - [Configuração do Servidor](#configuração-do-servidor)
 - [Testar as Configurações](#testar-as-configurações)
