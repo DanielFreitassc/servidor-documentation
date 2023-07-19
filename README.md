@@ -18,24 +18,24 @@ ___
 Observação, para facilitar o uso do terminal do linux Mint OS, Copie o codigo e cole no terminal usando as teclas de atalho Ctrl + Insert do teclado.
 `
 
-# Abra o Terminal:
+#  Use o atalho abaixo para abrir o Terminal:
 ```
-Terminal: Ctrl + Alt + T
+Ctrl + Alt + T
 ```
 ___
-# Instalar o Nginx no Mint 21.1.
+#  Use o comando abaixo para Instalar o Nginx no Mint 21.1.
 ```
 sudo apt install git vim perl python2 python3 unzip ghostscript zlib1g zlib1g-dev apt-transport-https
 ````
 ___
-# Instar o PHP 8.1.
+#  Use o comando abaixo para Instar o PHP 8.1.
 ```
 sudo apt install nginx php8.1 php8.1-cli php8.1-common php8.1-fpm php8.1-mysql php8.1-opcache \
 php8.1-readline php8.1-bcmath php8.1-curl php8.1-intl php8.1-mbstring php8.1-xml php8.1-zip \
 php8.1-soap php-imagick php-json libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap
 ```
 ___
-# Habilitar o NGINX.
+#  Use o comando abaixo para para Habilitar o NGINX .
 ```
 sudo systemctl daemon-reload
 sudo systemctl enable nginx
@@ -46,7 +46,7 @@ sudo systemctl start php8.1-fpm
 ___
 
 # Vamos configurar o servidor
-## primeiramente vamos desativar a configuração padrão do servidor para seu site ser achado. Insira um `#` no começo de todas as linhas codigo.
+## primeiramente vamos desativar a configuração padrão do servidor para seu site ser achado. Insira um `#` no começo de todas as linhas codigo,  Use o comando abaixo. 
 ````
 sudo nano /etc/nginx/sites-available/default
 ````
@@ -130,11 +130,12 @@ sudo nano /etc/hosts
 ```
 ___
 ## Adicionar uma linha ao arquivo `/etc/hosts` com o endereço IP e o nome do site, obs:só funcionara procurar o nome na maquina que foi configurado assim, as demais sera necessario ou repetir essa configuração ou procurar por endereço de ip:
+## (Substitua `<IP_ADDRESS>` pelo endereço IP do seu servidor)
 ```
 <IP_ADDRESS> meusite.com
 ```
 ___
-## (Substitua `<IP_ADDRESS>` pelo endereço IP do seu servidor)
+
 
 ___
 ## Salvar e fechar o arquivo `/etc/hosts`.
