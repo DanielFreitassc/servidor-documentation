@@ -144,7 +144,7 @@ ___
 ___
 # Por fim coloque seu site com o nome correto dentro da pasta `/var/www/meusite.com/aqui: index.html ou index.php` do seu site
 ## Alem disso para permitir o usuario enviar arquivos  
-### Subistitua simuladosatc.com pelo nome do diretorio faça isso a cada diretorio novo.
+### Substitua simuladosatc.com pelo nome do diretorio faça isso a cada diretorio novo.
 ```
 sudo chown -R www-data:www-data /var/www/simuladosatc.com/uploads
 sudo chown -R www-data:www-data /var/www/simuladosatc.com
