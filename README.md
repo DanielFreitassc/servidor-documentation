@@ -59,6 +59,7 @@ sudo nano /etc/nginx/sites-available/meusite.com
 ````
 ___
 ## Cole isso dentro da configuração do servidor.
+### E troque o simuladosatc.com pelo nome do seu site, e também troque index pelo index do seu arquivo se for js,php,html adicione um index.extensãoaqui
 ```
 server {
     listen 80;
