@@ -1,6 +1,6 @@
 # Sumário
 
-- [Introdução](#Configuração-do-Nginx-no-Linux-Mint)
+- [Introdução](#Este-é-um-guia-passo-a-passo-para-configurar-o-servidor-Nginx-no-Linux-Mint-OS)
 - [Instalação do Nginx](#Instalar-o-Nginx-no-mint-211)
 - [instalação do PHP](#Instar-o-PHP-81)
 - [Habilitar o Nginx](#habilitar-o-nginx)
