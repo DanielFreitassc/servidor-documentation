@@ -2,7 +2,7 @@
 
 - [Introdução](#Este-é-um-guia-passo-a-passo-para-configurar-o-servidor-Nginx-no-Linux-Mint-OS)
 - [Instalação do Nginx](#Use-o-comando-abaixo-para-Instalar-o-Nginx-no-Mint-211)
-- [instalação do PHP](#Use-o-comando-abaixo-para-Instar-o-PHP-81))
+- [instalação do PHP](#Use-o-comando-abaixo-para-Instar-o-PHP-81)
 - [Habilitar o NGINX](#Use-o-comando-abaixo-para-Habilitar-o-NGINX)
 - [Configuração do Servidor](#vamos-configurar-o-servidor)
 - [Configuração do arquivo /etc/hosts](#editar-o-arquivo-etchosts)
